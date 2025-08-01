@@ -1,0 +1,133 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.title{
+  color: white;
+  font-weight: 600;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #4496F9, #7183E2, #00D9C1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .navbar .title {
+    font-size: 1rem;
+  }
+
+  .navbar .nav-link {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+
+
+.nav-link.active {
+  background-color: #00D9C1 !important;
+  color: white !important;
+}
+
+.navbar-scrolled {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .title,
+.navbar-scrolled svg {
+  color: white !important;
+}
+
+
+.navbar-scrolled .nav-link.active {
+  background-color: #00D9C1 !important;
+  color: white !important;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #00D9C1 !important; 
+  border-color: #00D9C1 !important;
+}
+
+.btn-primary:hover {
+  background-color: #ffff !important;
+  border-color: #00D9C1 !important;
+  color: #00D9C1;
+}
+
+.hero-pic{
+    object-fit: cover; 
+    border: 5px solid white;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+}
+
+/* Hero section bagian kiri */
+
+.hero-section {
+  position: relative;
+  color: white;
+}
+
+.nameHero{
+  font-weight: 600;
+}
+
+.top-line {
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.bottom-line {
+  width: 90px;
+  height: 3px;
+  background-color: white;
+  margin: 2rem 0 0 auto;
+}
+
+.social-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hire-me {
+  background-color: #00dfc4;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 200px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
