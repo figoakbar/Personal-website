@@ -14,6 +14,19 @@ body {
   color: white;
 }
 
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Navbar */
 @media (max-width: 576px) {
   .navbar .title {
     font-size: 1rem;
@@ -22,6 +35,17 @@ body {
   .navbar .nav-link {
     font-size: 0.7rem;
     padding: 0.25rem 0.5rem;
+  }
+
+  .navbar .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .nav {
+    justify-content: center;
+    width: 100%;
+    margin-top: 0.5rem;
   }
 }
 
@@ -55,21 +79,14 @@ body {
   color: white !important;
 }
 
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 .nav-link {
   color: white !important;
+  font-weight: 600;
+}
+
+/* Hero section bagian Kanan */
+
+.hello{
   font-weight: 600;
 }
 
@@ -108,19 +125,44 @@ body {
   margin-bottom: 1rem;
 }
 
-.bottom-line {
-  width: 90px;
-  height: 3px;
-  background-color: white;
-  margin: 2rem 0 0 auto;
+
+.nameHero{
+  font-weight: 600;
+}
+
+.social-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px; 
+  justify-content: center; 
 }
 
 .social-icons {
   margin-top: 2rem;
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: flex-start;
+  gap: 2rem;
 }
+
+.bottom-line {
+  width: 200px;
+  height: 3px;
+  background-color: white;
+  margin: 2rem 0 0 auto;
+}
+
+@media (max-width: 991px) {
+  .social-wrapper {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+}
+
 
 .hire-me {
   background-color: #00dfc4;
@@ -130,4 +172,29 @@ body {
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+/*About me */
+.text-quote{
+  background-color: #00D9C1;
+  color: white;
+}
+
+.section-header {
+  display: flex;
+  align-items: center; /* Agar teks dan garis sejajar vertikal */
+  gap: 1rem; /* Jarak antara teks dan garis */
+}
+
+.section-title {
+  margin: 0;
+  color: #00cec9;
+  font-size: 1.5rem;
+  font-weight: medium;
+}
+
+.section-line {
+  flex-grow: 1; /* Garis akan mengisi ruang sisa */
+  height: 2px;
+  background-color: #00cec9;
 }
