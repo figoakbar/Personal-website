@@ -120,7 +120,7 @@ body {
 
 .top-line {
   width: 60px;
-  height: 3px;
+  height: 5px;
   background-color: white;
   margin-bottom: 1rem;
 }
@@ -297,5 +297,6 @@ body {
   display: inline-block;
   font-size: 1.5rem;
 }
+
 
     
