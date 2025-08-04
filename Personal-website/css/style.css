@@ -57,11 +57,11 @@ body {
 }
 
 .navbar-scrolled {
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(30, 30, 30, 0.3); /* lebih gelap tapi masih transparan */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
 }
@@ -70,7 +70,7 @@ body {
 .navbar-scrolled .navbar-brand,
 .navbar-scrolled .title,
 .navbar-scrolled svg {
-  color: white !important;
+  color: #222 !important;
 }
 
 
@@ -91,14 +91,14 @@ body {
 }
 
 .btn-primary {
-  background-color: #00D9C1 !important; 
-  border-color: #00D9C1 !important;
+  background-color: #4496F9 !important; 
+  border-color: #4496F9 !important;
 }
 
 .btn-primary:hover {
   background-color: #ffff !important;
-  border-color: #00D9C1 !important;
-  color: #00D9C1;
+  border-color: #4496F9 !important;
+  color: #4496F9;
 }
 
 .hero-pic{
@@ -161,6 +161,10 @@ body {
     justify-content: center;
   }
 
+  .abouy-img{
+    width: 720;
+  }
+
 }
 
 
@@ -176,25 +180,122 @@ body {
 
 /*About me */
 .text-quote{
-  background-color: #00D9C1;
+  background-color: #4496F9;
   color: white;
+}
+
+.about-me-card{
+  box-shadow: 0 1rem 3rem rgba(68, 150, 249, 0.4);
 }
 
 .section-header {
   display: flex;
-  align-items: center; /* Agar teks dan garis sejajar vertikal */
-  gap: 1rem; /* Jarak antara teks dan garis */
+  align-items: center;
+  gap: 1rem; 
 }
 
-.section-title {
+.about-title {
   margin: 0;
-  color: #00cec9;
+  color: #4496F9;
   font-size: 1.5rem;
   font-weight: medium;
 }
 
-.section-line {
-  flex-grow: 1; /* Garis akan mengisi ruang sisa */
+.about-line {
+  flex-grow: 1;
   height: 2px;
-  background-color: #00cec9;
+  background-color: #4496F9;
 }
+
+.lead{
+  text-align: justify;
+}
+
+.about-image {
+  max-width: 300px;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+@media (max-width: 768px) {
+  .about-image {
+    max-width: 300px;
+    display: block;
+    margin: 1rem auto;
+  }
+}
+
+/*Project Section*/
+
+    .specializing-title {
+      color: #4496F9;
+      font-weight: 600;
+    }
+
+    .section-heading {
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin-bottom: 3rem;
+    }
+
+    .card-title{
+      font-weight: 600;
+    }
+
+    .card-hover {
+      transition: 0.3s;
+    }
+
+    .card-hover:hover {
+      box-shadow: 0 10px 20px rgba(68, 150, 249, 0.4);
+      transform: translateY(-5px);
+    }
+
+    .card-hover:hover .btn-secondary{
+      background-color: #4496F9 !important; 
+      border-color: #4496F9 !important;
+      color: #fff;
+    }
+
+    .icon-img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 1rem;
+    }
+
+    .card-custom {
+      border: none;
+      border-radius: 20px;
+      padding: 2rem;
+    }
+
+.btn-secondary {
+  background-color: white !important; 
+  border-color: #4496F9 !important;
+  color: #4496F9;
+}
+
+.btn-secondary:hover {
+  background-color: #4496F9 !important; 
+  border-color: #4496F9 !important;
+  color: #fff;
+}
+
+
+.footer-section {
+  background: linear-gradient(300deg, #4496F9, #7183E2, #00D9C1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.footer-email{
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #4496f9;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+    
