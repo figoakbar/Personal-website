@@ -25,20 +25,35 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-function highlightActiveNav() {
+function highlightActiveSection() {
+  const sections = document.querySelectorAll("section[id]");
   const navLinks = document.querySelectorAll(".nav-link");
-  const currentPage = location.pathname.split("/").pop() || "index.html";
+
+  let currentSectionId = "";
+
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect();
+    const offset = 150; // offset atas agar lebih akurat (sesuaikan)
+    
+    if (rect.top <= offset && rect.bottom >= offset) {
+      currentSectionId = section.getAttribute("id");
+    }
+  });
 
   navLinks.forEach((link) => {
     const href = link.getAttribute("href");
 
-    if (href === currentPage) {
+    if (href === `#${currentSectionId}`) {
       link.classList.add("active");
     } else {
       link.classList.remove("active");
     }
   });
 }
+
+// Jalankan saat scroll dan saat load
+window.addEventListener("scroll", highlightActiveSection);
+window.addEventListener("load", highlightActiveSection);
 
   window.addEventListener('scroll', function () {
     const navbar = document.getElementById('mainNavbar');

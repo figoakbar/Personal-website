@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -235,7 +239,11 @@ body {
     .section-heading {
       font-size: 2.5rem;
       font-weight: 400;
-      margin-bottom: 3rem;
+      background-color: #4496F9;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 12px;
+      display: inline-block;
     }
 
     .card-title{
@@ -269,6 +277,34 @@ body {
       padding: 2rem;
     }
 
+
+
+/*Project featured
+.project-title{
+  background-color: #4496F9;
+  color: white;
+}
+
+.project-1{
+  background-color: #008BD9;
+  color: white;
+}
+
+.project-2{
+  background-color: #5D7FFF;
+  color: white;
+}
+.project-3{
+  background-color: #7183E2;
+  color: white;
+}
+.project-4{
+  background-color: #00d4ec;
+  color: white;
+}
+*/
+
+/*footer*/
 .btn-secondary {
   background-color: white !important; 
   border-color: #4496F9 !important;
