@@ -305,6 +305,7 @@ body {
 */
 
 /*footer*/
+
 .btn-secondary {
   background-color: white !important; 
   border-color: #4496F9 !important;
@@ -334,5 +335,27 @@ body {
   font-size: 1.5rem;
 }
 
+/* work experience */
 
+.section-about-title{
+  font-weight: 600;
+}
+
+.section-about-quote{
+  background-color: #fff;
+  color: #4496f9;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.card-body .card-title{
+  font-weight: 400;
+}
+
+.job-title{
+  font-weight: 600;
+}
     
