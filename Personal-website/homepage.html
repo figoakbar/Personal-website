@@ -7,7 +7,6 @@
   <script src="js/include.js" defer></script>
   <div class="gradient-background">
     <div data-include="components/navbar.html"></div>
-
       <section class="container col-xxl-12 py-5 px-4" id="home"> 
           <div class="row flex-lg-row-reverse align-items-center g-5 justify-content-center"> 
               <div class="col-12 col-sm-8 col-lg-6 border-right">
@@ -51,30 +50,289 @@
                   </div>
           </div>
           </div>
-        </section> 
+      </section> 
     </div>
 
   </div>
 
-  <!-- Section About -->
-<section class="container my-5" id="about"> 
-  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 rounded-3 about-me-card"> 
-    <div class="col-lg-7 col-md-12  p-3 p-lg-5 pt-lg-3"> 
-      <div class="section-header">
-        <p class="about-title">Let’s Get to Know Each Other, Shall we?</p>
-        <div class="about-line"></div>
+<!-- Section About -->
+  <section class="container my-5" id="about"> 
+    <div class="row row flex-lg-row-reverse p-4 pb-0 pe-lg-0 pt-lg-5 rounded-3 about-me-card"> 
+        <div class="section-header p-2 pb-lg-3 px-5 pt-lg-3">
+          <p class="about-title">Let’s Get to Know Each Other, Shall we?</p>
+          <div class="about-line"></div>
+        </div>
+      <div class="col-lg-5 col-md-12 p-0 overflow-hidden"> 
+        <img class="rounded-lg-3  d-block mx-auto about-img" src="public/FIGO.png" alt="" width="600"> 
+      </div> 
+      <div class="col-lg-7 col-md-12 pb-5 p-3 p-lg-5 pt-lg-3"> 
+        <h1 class="display-4 fw-bold lh-1 text-quote py-3 px-3 mt-3 rounded-3">"Strangers don’t earn trust — friends do."</h1> 
+        <p class="lead mt-3">I’m a Software Engineer with a background in Informatics Engineering from Telkom University. Before diving into software development, I worked for 2 years as a QA Engineer on projects for Bank Negara Indonesia. I also have hands-on experience in UI/UX design and branding for businesses — combining logic and creativity has always been my thing.</p>
+        <p class="lead mt-3">I do games 🎮, tennis 🎾, and football ⚽️. If you’re into the same things, feel free to reach out! 😉</p>
+        <a data-bs-toggle="collapse" data-bs-target="#aboutMore">haven't really shared my work experience or education background yet. ▼</a>
+      </div> 
+      <div class="collapse my-3" id="aboutMore">
+        <div class="container">
+          <div class="section-header mb-2">
+            <p class="about-title">🧑‍💻 Work Experience? Yup, I’ve Been Busy!</p>
+          </div>
+          <!--Work 1-->
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2 d-flex justify-content-center align-items-start">
+                <img src="/public/ntt-logo.webp" class="img-fluid rounded-start object-fit-cover card-img" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body position-relative">
+                  <h5 class="card-title"><span class="job-title">NTT Data Ltd. Placement at BNI</span> | QA Tester</h5>
+                  <p class="card-text"><small class="text-body-secondary">Sep 2023 - Present</small></p>
+
+                  <!-- Visible (always shown) skills -->
+                  <div class="d-flex gap-2 flex-wrap">
+                    <span class="badge bg-info-subtle text-info-emphasis">Oracle</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">SQL</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Postman</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">API</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Test Case</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">File Zila</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Test Rail</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Excel</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Ms Word</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Performance Test</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">UAT</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Regression</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Smoke Test</span>
+                  </div>
+
+                  <!-- Collapse Button (right aligned) -->
+                  <div class="d-flex justify-content-end mt-2">
+                    <button class="btn btn-sm" data-bs-toggle="collapse" data-bs-target="#nttMore">
+                      ▼
+                    </button>
+                  </div>
+
+                  <!-- Collapsible Section -->
+                  <div class="collapse" id="nttMore">
+                    <div class="px-8 py-4">
+                      <p class="font-bold">What I do:</p>
+                      <ul class="list-disc mt-4 flex flex-col gap-2">
+                        <li>Performed manual testing of web and mobile applications to identify bugs, usability issues, and functional defects.</li>
+                        <li>Created, executed, and maintained test cases and test reports.</li>
+                        <li>Conducted functional, regression, exploratory, smoke, Performance, and UI testing.</li>
+                        <li>Reported and tracked defects using Testrail.</li>
+                        <li>Collaborated with developers, product managers, and other stakeholders to ensure high-quality software releases.</li>
+                        <li>Validated business requirements and specifications for completeness and testability.</li>
+                        <li>Ensured adherence to QA best practices and contributed to process improvements.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Work 2-->
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2 d-flex justify-content-center align-items-start">
+                <img src="/public/pegadaian-logo.png" class="img-fluid rounded-start object-fit-cover card-img" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body position-relative">
+                  <h5 class="card-title"><span class="job-title">Pegadaian</span> | QA Automation Engineer Intern</h5>
+                  <p class="card-text"><small class="text-body-secondary">Feb 2023 - Jul 2023</small></p>
+
+                  <!-- Visible (always shown) skills -->
+                  <div class="d-flex gap-2 flex-wrap">
+                    <span class="badge bg-info-subtle text-info-emphasis">SQL</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Postman</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">API</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Test Case</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Katalon</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Jira</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Excel</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Ms Word</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">UAT</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Regression</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Smoke Test</span>
+                  </div>
+
+                  <!-- Collapse Button (right aligned) -->
+                  <div class="d-flex justify-content-end mt-2">
+                    <button class="btn btn-sm" data-bs-toggle="collapse" data-bs-target="#pegadaianMore">
+                      ▼
+                    </button>
+                  </div>
+
+                  <!-- Collapsible Section -->
+                  <div class="collapse" id="pegadaianMore">
+                    <div class="px-8 py-4">
+                      <p class="font-bold">What I do:</p>
+                      <ul class="list-disc mt-4 flex flex-col gap-2">
+                        <li>API Testing using postman</li>
+                        <li>Created a test case scenario for employee holiday application</li>
+                        <li>Conducted functional, regression, exploratory, smoke, Performance, and UI testing.</li>
+                        <li>Testing features using Katalon and manual testing</li>
+                        <li>Created a documentation for testing (QAD)</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Work 3-->
+          <div class="card mb-3">
+            <div class="row g-0">
+              
+              <div class="col-md-2 d-flex justify-content-center align-items-start py-3 px-3">
+                <img src="/public/iflab.png" class="img-fluid rounded object-fit-cover card-img" alt="Logo">
+              </div>
+
+              <div class="col-md-10">
+                <div class="card-body position-relative">
+                  <h5 class="card-title"><span class="job-title">Informatics Laboratory</span> | Front-End Dev Intern</h5>
+                  <p class="card-text"><small class="text-body-secondary">Feb 2023 - Jul 2023</small></p>
+
+                  <!-- Visible (always shown) skills -->
+                  <div class="d-flex gap-2 flex-wrap">
+                    <span class="badge bg-info-subtle text-info-emphasis">Vue</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Javascript</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">API</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Postman</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">PostgreSQL</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Laravel</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">PHP</span>
+                  </div>
+
+                  <!-- Collapse Button (right aligned) -->
+                  <div class="d-flex justify-content-end mt-2">
+                    <button class="btn btn-sm" data-bs-toggle="collapse" data-bs-target="#iflabMore">
+                      ▼
+                    </button>
+                  </div>
+
+                  <!-- Collapsible Section -->
+                  <div class="collapse" id="iflabMore">
+                    <div class="px-8 py-4">
+                      <p class="font-bold">What I do:</p>
+                      <ul class="list-disc mt-4 flex flex-col gap-2">
+                        <li>Managed the Assistant Practicum dashboard, overseeing user experience and performance.</li>
+                        <li>Developed and implemented key pages for:</li>
+                        <ul>
+                          <li>Practicum Absence Tracking</li>
+                          <li>Practicum Journal Submission</li>
+                          <li>Password Change & Authentication Flow</li>
+                        </ul>
+                        <li>Utilized Vue.js for responsive front-end development.li>
+                        <li>Built robust back-end features using PHP and the Laravel framework.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!--Work 4-->
+          <div class="card mb-3">
+            <div class="row g-0">
+              
+              <div class="col-md-2 d-flex justify-content-center align-items-start py-3 px-3">
+                <img src="/public/iflab.png" class="img-fluid rounded object-fit-cover card-img" alt="Logo">
+              </div>
+
+              <div class="col-md-10">
+                <div class="card-body position-relative">
+                  <h5 class="card-title"><span class="job-title">Freelance</span> | UI Designer</h5>
+                  <p class="card-text"><small class="text-body-secondary">Feb 2023 - Jul 2023</small></p>
+
+                  <!-- Visible (always shown) skills -->
+                  <div class="d-flex gap-2 flex-wrap">
+                    <span class="badge bg-info-subtle text-info-emphasis">Figma</span>
+                    <span class="badge bg-info-subtle text-info-emphasis">Ui Design</span>
+                  </div>
+
+                  <!-- Collapse Button (right aligned) -->
+                  <div class="d-flex justify-content-end mt-2">
+                    <button class="btn btn-sm" data-bs-toggle="collapse" data-bs-target="#iflabMore">
+                      ▼
+                    </button>
+                  </div>
+
+                  <!-- Collapsible Section -->
+                  <div class="collapse" id="iflabMore">
+                    <div class="px-8 py-4">
+                      <p class="font-bold">What I do:</p>
+                      <ul class="list-disc mt-4 flex flex-col gap-2">
+                        <li>Managed the Assistant Practicum dashboard, overseeing user experience and performance.</li>
+                        <li>Developed and implemented key pages for:</li>
+                        <ul>
+                          <li>Practicum Absence Tracking</li>
+                          <li>Practicum Journal Submission</li>
+                          <li>Password Change & Authentication Flow</li>
+                        </ul>
+                        <li>Utilized Vue.js for responsive front-end development.li>
+                        <li>Built robust back-end features using PHP and the Laravel framework.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--Education background-->
+        <div class="section-header mb-2 mt-5">
+          <p class="about-title">🎓 Where I Got My Geek Badge</p>
+        </div>
+        <!--Education 1-->
+        <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2 d-flex justify-content-center align-items-start">
+                <img src="/public/telkom-logo.png" class="img-fluid rounded-start object-fit-cover card-img py-3 px-3" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body position-relative">
+                  <h5 class="card-title"><span class="job-title">Telkom University</span> | Informatics Bachelor Degree</h5>
+                  <p class="card-text"><small class="text-body-secondary">Sep 2018 - Sep 2022</small></p>
+                  <p class="card-text"><small class="text-body">GPA - 3.6</small></p>
+                  <div class="d-flex justify-content-end mt-2">
+                    <button class="btn btn-sm" data-bs-toggle="collapse" data-bs-target="#telkomMore">
+                      ▼
+                    </button>
+                  </div>
+
+                  <!-- Collapsible Section -->
+                  <div class="collapse" id="telkomMore">
+                    <div class="px-8 py-4">
+                      <p class="font-bold">Stuff I Did (Besides Just Surviving College 😅)</p>
+                      <ul class="list-disc mt-4 flex flex-col gap-2">
+                        <li class="fw-bold">Lead Product Division on Big Data Laboratory:</li>
+                          <ul>
+                            <li>Guided laboratory members in the development of digital products through hands-on mentoring and collaboration.</li>
+                            <li>Facilitated learning and teaching sessions on PHP, Laravel, SQL, and UI Design to enhance technical and design skills within the team.</li>
+                            <li>Represented the Product Division during the Big Data Laboratory Open Mind event, presenting key initiatives and ongoing projects.</li>
+                          </ul>
+                        <li class="fw-bold mt-2">Volunteering on InterFest as FACC (First Aid and Consumption Crew):</li>
+                          <p>INTER-FEST (Informatics Sport, Expo, Research, and Festival) is the biggest event in Informatics, Consist of many sub-event such as Informatics League, Informatics Got Talent, INTER-FEST Programming Competition (IMPACT), National Seminar, Lab Exhibition, Festival, and many more.
+                          FACC (First Aid and Consumption Crew)is a division that focuses on consumption and medical crew.</p>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
       </div>
-      
-      <h1 class="display-4 fw-bold lh-1 text-quote py-3 px-3 mt-3 rounded-3">"Strangers don’t earn trust — friends do."</h1> 
-      <p class="lead mt-3">I’m a Software Engineer with a background in Informatics Engineering from Telkom University. Before diving into software development, I worked for 2 years as a QA Engineer on projects for Bank Negara Indonesia. I also have hands-on experience in UI/UX design and branding for businesses — combining logic and creativity has always been my thing.</p>
-      <p class="lead mt-3">I do games 🎮, tennis 🎾, and football ⚽️. If you’re into the same things, feel free to reach out! 😉</p>
-       <a href="about.html">haven't really shared my work experience or education background yet. -></a>
     </div> 
-    <div class="col-lg-5 col-md-12 p-0 overflow-hidden"> 
-      <img class="rounded-lg-3  d-block mx-auto about-img" src="public/FIGO.png" alt="" width="600"> 
-    </div> 
-  </div> 
-</section>
+  </section>
 
 <!--Project Section-->
 
@@ -94,7 +352,7 @@
           <div class="tools-icon">
               
           </div>
-          <a href="#" class="btn btn-secondary mt-auto">Find out more</a>
+          <a href="/about.html" class="btn btn-secondary mt-auto">Find out more</a>
         </div>
       </div>
 
@@ -124,7 +382,7 @@
     </div>
   </section>
 
-  <!--Recent project
+  <!--Recent project-->
   <div class="container py-4 mt-3 mb-5"> 
       <div class="p-5 mb-4 rounded-3 project-title"> 
         <div class="container-fluid py-5"> 
@@ -133,40 +391,36 @@
           <a></a> 
         </div> 
       </div> 
-      <div class="row align-items-md-stretch g-4"> 
-        <div class="col-lg-7 col-md-12"> 
-          <div class="h-100 p-5 project-1 rounded-3"> 
-            <p class="fw-bold">- Software Tester -</p>
-            <h2>PKU Fits</h2> 
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p> 
-          </div> 
-        </div> 
-        <div class="col-lg-5 col-md-12"> 
-          <div class="h-100 p-5 project-2 rounded-3"> 
-            <p class="fw-bold">- Software Tester -</p>
-            <h2>Payment To Merchant</h2> 
-            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at.</p> 
-          </div> 
-        </div> 
+      <section class="container ">
+        <div class="row row-cols-1 row-cols-lg-2 g-4 text-center align-items-stretch">
+    <div class="col">
+      <div class="card h-100 text-white bg-dark">
+        <div class="card-body">
+          <p class="card-title">- Software Tester -</p>
+          <h3 class="card-text fw-bold mt-3">PKU Fits</h3>
+          <p class="card-desc">
+            PKU Fits is a Financial Integration Transaction System website.
+          </p>
+          <span class="badge bg-success-subtle text-success-emphasis">Completed</span>
+        </div>
+        <img
+          src="/public/project-1.png"
+          class="card-img-bottom object-fit-cover"
+          style="height: 200px; width: 100%;"
+          alt="Project 1"
+        />
       </div>
-      <div class="row align-items-md-stretch mt-1 g-4"> 
-        <div class="col-lg-4 col-md-12"> 
-          <div class="h-100 p-5 project-3 rounded-3"> 
-            <p class="fw-bold">- Software Tester -</p>
-            <h2>Mobile Collection</h2> 
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p> 
-          </div> 
-        </div> 
-        <div class="col-lg-8 col-md-12"> 
-          <div class="h-100 p-5 project-4 rounded-3"> 
-            <p class="fw-bold">- Software Tester -</p>
-            <h2>Payment To Merchant</h2> 
-            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at.</p> 
-          </div> 
-        </div> 
+    </div>
+    <div class="col">
+      <div class="card h-100 text-white bg-dark">
+        <div class="card-body">
+          <p class="card-title">- Software Tester -</p>
+          <h3 class="card-text fw-bold mt-3">Payment to Merchant</h3>
+
+          </div>
+        </section>
       </div>
-     </div>
--->
+
      
 <!--Footer-->
 <div data-include="components/footer.html"></div>

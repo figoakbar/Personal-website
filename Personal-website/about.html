@@ -5,132 +5,36 @@
 </head>
 <body>
     <script src="js/include.js" defer></script>
-    <section class="container work-experience">
-        <div class="p-3 my-5 rounded-3 bg-body-tertiary gradient-background"> 
-          <div class="container align-items-center justify-content-center row "> 
-            <div class = "col-lg-8">
-              <div class="top-line"></div>
-              <h1 class="section-about-title fs-7">Work Experience? Yup, I’ve Been Busy!</h1> 
-              <p class="section-about-quote mt-3">I make apps, fix things, and try not to break them again 🙈</p>
-              <div class="bottom-line"></div>
-            </div>
-            <div class = "col-lg-4">
-              <img src="/public/work-experience-header.png" class="d-block mx-auto img-fluid py-3" alt="exp">
-            </div>
-          </div> 
-        </div> 
-
-        
-        <!--Work 1-->
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-2">
-              <img src="/public/ntt-logo.webp" class="img-fluid rounded-start object-fit-cover" alt="...">
-            </div>
-            <div class="col-md-10">
-              <div class="card-body position-relative">
-                <h5 class="card-title"><span class="job-title">NTT Data Ltd. Placement at BNI</span> | QA Tester</h5>
-                <p class="card-text"><small class="text-body-secondary">Sep 2023 - Present</small></p>
-
-                <!-- Visible (always shown) skills -->
-                <div class="d-flex gap-2 flex-wrap">
-                  <span class="badge bg-info-subtle text-info-emphasis">Oracle</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">SQL</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Postman</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">API</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Test Case</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">File Zila</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Test Rail</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Excel</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Ms Word</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Performance Test</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">UAT</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Regression</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Smoke Test</span>
-                </div>
-
-                <!-- Collapse Button (right aligned) -->
-                <div class="d-flex justify-content-end mt-2">
-                  <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#nttMore">
-                    ▼
-                  </button>
-                </div>
-
-                <!-- Collapsible Section -->
-                <div class="collapse" id="nttMore">
-                  <div class="px-8 py-4">
-                    <p class="font-bold">What I do:</p>
-                    <ul class="list-disc mt-4 flex flex-col gap-2">
-                      <li>Performed manual testing of web and mobile applications to identify bugs, usability issues, and functional defects.</li>
-                      <li>Created, executed, and maintained test cases and test reports.</li>
-                      <li>Conducted functional, regression, exploratory, smoke, Performance, and UI testing.</li>
-                      <li>Reported and tracked defects using Testrail.</li>
-                      <li>Collaborated with developers, product managers, and other stakeholders to ensure high-quality software releases.</li>
-                      <li>Validated business requirements and specifications for completeness and testability.</li>
-                      <li>Ensured adherence to QA best practices and contributed to process improvements.</li>
-                    </ul>
-                  </div>
-                </div>
-
+      <div class="gradient-background">
+    <div data-include="components/navbar.html"></div>
+      <section class="container col-xxl-12 py-5 px-4" id="home"> 
+          <div class="row flex-lg-row-reverse align-items-center g-5 justify-content-center"> 
+              <div class="col-12 col-sm-8 col-lg-6 border-right">
+                  <img src="/public/creative-hero.png"
+                      class="d-block mx-auto img-fluid"
+                      alt="Bootstrap Themes"
+                      width="400" height="200" loading="lazy">
               </div>
-            </div>
-          </div>
-        </div>
-
-        <!--Work 2-->
-          <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-2">
-              <img src="/public/pegadaian-logo.png" class="img-fluid rounded-start object-fit-cover" alt="...">
-            </div>
-            <div class="col-md-10">
-              <div class="card-body position-relative">
-                <h5 class="card-title"><span class="job-title">Pegadaian</span> | QA Automation Engineer Intern</h5>
-                <p class="card-text"><small class="text-body-secondary">Feb 2023 - Jul 2023</small></p>
-
-                <!-- Visible (always shown) skills -->
-                <div class="d-flex gap-2 flex-wrap">
-                  <span class="badge bg-info-subtle text-info-emphasis">SQL</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Postman</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">API</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Test Case</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Katalon</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Jira</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Excel</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Ms Word</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">UAT</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Regression</span>
-                  <span class="badge bg-info-subtle text-info-emphasis">Smoke Test</span>
-                </div>
-
-                <!-- Collapse Button (right aligned) -->
-                <div class="d-flex justify-content-end mt-2">
-                  <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#pegadaianMore">
-                    ▼
-                  </button>
-                </div>
-
-                <!-- Collapsible Section -->
-                <div class="collapse" id="pegadaianMore">
-                  <div class="px-8 py-4">
-                    <p class="font-bold">What I do:</p>
-                    <ul class="list-disc mt-4 flex flex-col gap-2">
-                      <li>API Testing using postman</li>
-                      <li>Created a test case scenario for employee holiday application</li>
-                      <li>Conducted functional, regression, exploratory, smoke, Performance, and UI testing.</li>
-                      <li>Testing features using Katalon and manual testing</li>
-                      <li>Created a documentation for testing (QAD)</li>
-                    </ul>
+              <div class="col-lg-6 text-center text-lg-start">
+                  <div class="hero-section">
+                  <div class="container">
+                      <div class="top-line"></div>
+                      <h1 class="nameHero">Stuff I Designed with Love (and Deadlines) 🎨</h1>
+                      <p class="text-muted small mt-4">
+                        Create a branding design such as banners, brochure, etc; and UI/UX Design for mobile apps or websites.
+                      </p>
+                      <div class="bottom-line"></div>
+                    </div>
                   </div>
-                </div>
-
-              </div>
-            </div>
+                  </div>
           </div>
-        </div>
-    </section>
+          </div>
+      </section> 
+    </div>
 
-  <!-- Bootstrap JS (required for collapse) -->
+  </div>
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

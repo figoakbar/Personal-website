@@ -358,4 +358,25 @@ body {
 .job-title{
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .card-img {
+    max-width: 200px;
+    display: block;
+    margin: 1rem auto;
+  }
+}
+
+.card-1{
+  background-color: #4496F9;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-2{
+  background-color: #00D9C1;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
     
