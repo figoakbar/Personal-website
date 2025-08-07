@@ -99,6 +99,7 @@ body {
   border-color: #4496F9 !important;
 }
 
+
 .btn-primary:hover {
   background-color: #ffff !important;
   border-color: #4496F9 !important;
@@ -259,12 +260,6 @@ body {
       transform: translateY(-5px);
     }
 
-    .card-hover:hover .btn-secondary{
-      background-color: #4496F9 !important; 
-      border-color: #4496F9 !important;
-      color: #fff;
-    }
-
     .icon-img {
       width: 200px;
       height: 200px;
@@ -313,10 +308,9 @@ body {
 }
 
 .btn-secondary:hover {
-  background-color: #4496F9 !important; 
-  border-color: #4496F9 !important;
-  color: #fff;
+  color: #4496F9;
 }
+
 
 
 .footer-section {
@@ -367,7 +361,12 @@ body {
   }
 }
 
-
+.project-container .card{
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-align: justify;
+}
 
 .card-img-project {
   max-height: 300px;
@@ -378,26 +377,21 @@ body {
 
 .card-1{
   background-color: #889cf8;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  color: #fff;
-  text-align: justify;
 }
 
 .card-2{
   background-color: #5aa9ff;
-  color: #fff;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  text-align: justify;
 }
 
 .card-3{
   background-color: #7183E2;
-  color: #fff;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  text-align: justify;
 }
 
+.card-4{
+  background-color: #4496F9;
+}
+
+.card-5{
+  background-color: #00D9C1;
+}
     
