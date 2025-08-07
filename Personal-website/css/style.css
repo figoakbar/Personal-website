@@ -367,16 +367,37 @@ body {
   }
 }
 
+
+
+.card-img-project {
+  max-height: 300px;
+  width: 100%;
+  object-fit: contain;
+  image-rendering: auto;
+}
+
 .card-1{
-  background-color: #4496F9;
+  background-color: #889cf8;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-align: justify;
 }
 
 .card-2{
-  background-color: #00D9C1;
+  background-color: #5aa9ff;
+  color: #fff;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.card-3{
+  background-color: #7183E2;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: justify;
 }
 
     
