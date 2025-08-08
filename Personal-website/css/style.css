@@ -1,5 +1,5 @@
-html {
-  scroll-behavior: smooth;
+html.aos-init [data-aos] {
+  opacity: 0 !important; /* baru diatur AOS */
 }
 
 body {
@@ -309,6 +309,16 @@ body {
 
 .btn-secondary:hover {
   color: #4496F9;
+}
+
+.btn-alternative {
+  background-color: white !important; 
+  border-color: #00D9C1 !important;
+  color: #00D9C1;
+}
+
+.btn-alternative:hover {
+  color: #00D9C1;
 }
 
 
