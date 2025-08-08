@@ -42,7 +42,6 @@ body {
   }
 
   .navbar .container {
-    flex-direction: column;
     align-items: center;
   }
 
@@ -88,18 +87,16 @@ body {
   font-weight: 600;
 }
 
-/* Hero section bagian Kanan */
-
-.hello{
-  font-weight: 600;
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.4); /* transparan */
+    backdrop-filter: blur(10px); /* efek blur */
+    -webkit-backdrop-filter: blur(10px); /* untuk Safari */
+    border-radius: 10px;
+  }
 }
 
-.btn-primary {
-  background-color: #4496F9 !important; 
-  border-color: #4496F9 !important;
-}
-
-
+/* Hero section bagian kanan */
 .btn-primary:hover {
   background-color: #ffff !important;
   border-color: #4496F9 !important;
@@ -172,7 +169,6 @@ body {
 
 }
 
-
 .hire-me {
   background-color: #00dfc4;
   border: none;
@@ -227,6 +223,9 @@ body {
     max-width: 300px;
     display: block;
     margin: 1rem auto;
+  }
+  .lead{
+    font-size: medium;
   }
 }
 
@@ -375,6 +374,9 @@ body {
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   color: #fff;
+}
+
+.project-container .card-text{
   text-align: justify;
 }
 
@@ -383,6 +385,33 @@ body {
   width: 100%;
   object-fit: contain;
   image-rendering: auto;
+}
+
+@media (max-width: 767.98px) {
+  .button-wraper {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .button-wraper .btn {
+    padding: 0.5rem 0.55rem;
+    font-size: 0.9rem;
+  }
+
+  .button-wraper svg {
+    width: 20px; 
+    height: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .button-wraper {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    gap: 1rem;
+  }
 }
 
 .card-1{
