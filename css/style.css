@@ -271,73 +271,6 @@ body {
       padding: 2rem;
     }
 
-
-
-/*Project featured
-.project-title{
-  background-color: #4496F9;
-  color: white;
-}
-
-.project-1{
-  background-color: #008BD9;
-  color: white;
-}
-
-.project-2{
-  background-color: #5D7FFF;
-  color: white;
-}
-.project-3{
-  background-color: #7183E2;
-  color: white;
-}
-.project-4{
-  background-color: #00d4ec;
-  color: white;
-}
-*/
-
-/*footer*/
-
-.btn-secondary {
-  background-color: white !important; 
-  border-color: #4496F9 !important;
-  color: #4496F9;
-}
-
-.btn-secondary:hover {
-  color: #4496F9;
-}
-
-.btn-alternative {
-  background-color: white !important; 
-  border-color: #00D9C1 !important;
-  color: #00D9C1;
-}
-
-.btn-alternative:hover {
-  color: #00D9C1;
-}
-
-
-
-.footer-section {
-  background: linear-gradient(300deg, #4496F9, #7183E2, #00D9C1);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-}
-
-.footer-email{
-  background-color: white;
-  padding: 8px 16px;
-  border-radius: 12px;
-  font-weight: bold;
-  color: #4496f9;
-  display: inline-block;
-  font-size: 1.5rem;
-}
-
 /* work experience */
 
 .section-about-title{
@@ -434,3 +367,42 @@ body {
   background-color: #00D9C1;
 }
     
+/*footer*/
+
+.btn-secondary {
+  background-color: white !important; 
+  border-color: #4496F9 !important;
+  color: #4496F9;
+}
+
+.btn-secondary:hover {
+  color: #4496F9;
+}
+
+.btn-alternative {
+  background-color: white !important; 
+  border-color: #00D9C1 !important;
+  color: #00D9C1;
+}
+
+.btn-alternative:hover {
+  color: #00D9C1;
+}
+
+
+
+.footer-section {
+  background: linear-gradient(300deg, #4496F9, #7183E2, #00D9C1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.footer-email{
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #4496f9;
+  display: inline-block;
+  font-size: 1.5rem;
+}
